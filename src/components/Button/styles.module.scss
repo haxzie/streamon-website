@@ -1,0 +1,40 @@
+.btn {
+    border: none;
+    padding: 10px 15px;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 5px;
+    background-color: var(--color-secondary);
+    transition: 0.3s all ease-in-out;
+
+    &.small {
+        font-size: 1rem;
+    }
+
+    &.medium {
+        font-size: 1.2rem;
+    }
+
+    &.large {
+        font-size: 1.5rem;
+    }
+
+    .iconLeft {
+        margin-right: 10px;
+    }
+
+    .iconRight {
+        margin-left: 10px;
+    }
+
+    &:hover {
+        cursor: pointer;
+        opacity: 0.8;
+    }
+
+    &:active {
+        transform: scale(0.98);
+    }
+}

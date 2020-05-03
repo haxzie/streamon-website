@@ -1,5 +1,59 @@
+@import "../../styles/setup/mixins";
+
 .header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: var(--color-primary);
+  height: 66px;
+
+  h1,
+  ul,
+  li {
+    color: var(--font-color-dark);
+  }
+
+  .contents {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
+  }
+
+  .branding {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .logo {
+      width: 25px;
+      height: auto;
+      margin-right: 10px;
+    }
+    .title {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+  }
+
+  .navMenu {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+
+    li a {
+        padding: 10px 15px;
+        color: var(--font-color-dark);
+        font-size: 1rem;
+        &:hover {
+            opacity: 0.7;
+        }
+    }
+
+    @include respond-below(sm) {
+        display: none;
+    }
+  }
 }
