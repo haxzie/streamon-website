@@ -10,7 +10,7 @@ export default function DownloadSection() {
     <section className={styles.downloadSection}>
       <Container>
         <h1 className={styles.pageTitle}>Downloads</h1>
-        <p className={styles.pageDescription}>Latest Version: v0.1.0 Beta</p>
+        <p className={styles.pageDescription}>Latest Version: v0.1.1 Beta [04/05/2020]</p>
 
         <div className={styles.platformGrid}>
           <div className={styles.platformCard}>
@@ -19,8 +19,8 @@ export default function DownloadSection() {
               <h4 className={styles.title}>Linux</h4>
             </header>
             <ul className={styles.downloadsList}>
-                <li><h4>deb</h4><a target="_blank" rel="noopener" href="https://drive.google.com/open?id=105q00pu3wTR0leWrXoZWsMakvYQ3nc9h">Download</a></li>
-                <li><h4>AppImage</h4><a target="_blank" rel="noopener" href="https://drive.google.com/open?id=1ErG0NlKlBliQHm7RvnZRYNmw-XV1iMdT">Download</a></li>
+                <li><h4>deb</h4><a target="_blank" rel="noopener" href="https://drive.google.com/open?id=1kAEQESBHLW4ZrO0vKUc1X4dT7Wst9UpH">Download</a></li>
+                <li><h4>AppImage</h4><a target="_blank" rel="noopener" href="https://drive.google.com/open?id=1iTLzFHm37Sxf33Xe97qVOsE42_0UsGIP">Download</a></li>
             </ul>
           </div>
           <div className={styles.platformCard}>
@@ -29,7 +29,7 @@ export default function DownloadSection() {
               <h4 className={styles.title}>Windows</h4>
             </header>
             <ul className={styles.downloadsList}>
-                <li><h4>exe</h4><a target="_blank" rel="noopener" href="https://drive.google.com/open?id=1NX9F8Jhn-jsNcV8UI628DLBhxoplQNDj">Download</a></li>
+                <li><h4>exe</h4><a target="_blank" rel="noopener" href="https://drive.google.com/open?id=1V6w05GB9wX1YIAWF8efm7yyN6q6kgLAA">Download</a></li>
             </ul>
           </div>
           <div className={styles.platformCard}>

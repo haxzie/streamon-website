@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Instagram live streamer`,
+    title: `Streamon`,
     description: `Stream to instagram live from PC/Mac`,
     author: `@haxzie`,
     siteUrl: "https://ig-live.netlify.app"
