@@ -1,0 +1,78 @@
+@import "../../styles/setup/mixins";
+
+.downloadSection {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+
+  .pageTitle {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 10px 0;
+  }
+
+  .platformGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 20px 0;
+    column-gap: 20px;
+    row-gap: 20px;
+
+    @include respond-below(md) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include respond-below(sm) {
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+    .platformCard {
+      display: flex;
+      flex-direction: column;
+      background-color: white;
+      border-radius: 5px;
+      box-shadow: 0 10px 7px #090c3f15;
+      padding: 15px;
+
+      header {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          padding: 10px 0 20px 0;
+          border-bottom: 1px solid #eee;
+
+          .platformIcon {
+              width: 30px;
+              height: auto;
+              opacity: 0.7;
+          }
+
+          .title {
+              margin-left: 15px;
+              font-weight: bold;
+          }
+      }
+    }
+
+    .downloadsList {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px 0;
+            border-bottom: 1px solid #eee;
+
+            &:last-child {
+                border: none;
+            }
+        }
+    }
+  }
+}

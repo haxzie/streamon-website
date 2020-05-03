@@ -1,0 +1,49 @@
+@import "../../styles/setup/mixins";
+
+.videoSection {
+  height: auto;
+  position: relative;
+
+  .backgroundRibbon {
+    height: 150px;
+    width: 100%;
+    background-color: var(--color-primary);
+    display: flex;
+    z-index: 1;
+    position: absolute;
+  }
+
+  .contents {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+
+    .videoCard {
+      display: flex;
+      width: 800px;
+      height: 500px;
+      border-radius: 10px;
+      background-color: white;
+      box-shadow: 0 30px 30px #010c2e27;
+      position: relative;
+
+      @include respond-below(sm) {
+          height: 300px;
+      }
+      
+
+      div:first-child {
+          width: 100%;
+          padding: 10px;
+          border-radius: 10px;
+          overflow: hidden;
+      }
+
+      .videoPlayer {
+        border-radius: 10px;
+        background-color: var(--color-primary);
+      }
+    }
+  }
+}

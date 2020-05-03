@@ -34,13 +34,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Instagram Live Streamer`,
+        short_name: `Streamon`,
         start_url: `/`,
-        background_color: `#151a24`,
-        theme_color: `#151a24`,
+        background_color: `#041732`,
+        theme_color: `#041732`,
         display: `minimal-ui`,
-        // icon: `src/images/haxzie.png`, // This path is relative to the root of the site.
+        icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },
     },
     {

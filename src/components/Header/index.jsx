@@ -36,7 +36,7 @@ export default function Header() {
               </a>
             </li>
             <li>
-              <a href="#">Donate</a>
+              <a target="_blank" rel="noopener" href="https://www.buymeacoffee.com/haxzie">Buy me a coffee</a>
             </li>
           </ul>
         </div>
