@@ -3,6 +3,7 @@ module.exports = {
     title: `Instagram live streamer`,
     description: `Stream to instagram live from PC/Mac`,
     author: `@haxzie`,
+    siteUrl: "https://ig-live.netlify.app"
   },
   plugins:  [
     `gatsby-plugin-react-helmet`,
