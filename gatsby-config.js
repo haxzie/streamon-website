@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: `Streamon`,
-    description: `Stream to instagram live from PC/Mac`,
+    description: `Stream to instagram live from Windows/Linux/Mac with just one click.`,
     author: `@haxzie`,
-    siteUrl: "https://ig-live.netlify.app"
+    siteUrl: "https://getstreamon.com"
   },
   plugins:  [
     `gatsby-plugin-react-helmet`,
