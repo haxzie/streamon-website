@@ -64,6 +64,12 @@ module.exports = {
         // Avoids sending pageview hits from custom paths
         exclude: ['/preview/**', '/do-not-track/me/too/'],
       },
+    },
+    {
+      resolve: `gatsby-plugin-google-adsense`,
+      options: {
+        publisherId: `ca-pub-7556700931518738`
+      },
     }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
