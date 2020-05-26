@@ -2,10 +2,12 @@ import React from "react"
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
 import DownloadsSection from "../components/DownloadSection"
+import NoteView from "../components/NoteView";
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Downloads" />
+    <NoteView/>
     <DownloadsSection
       title="Downloads [Stable]"
       version="v0.1.1"
