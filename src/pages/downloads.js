@@ -10,25 +10,25 @@ const IndexPage = () => (
     <NoteView/>
     <DownloadsSection
       title="Downloads [Stable]"
-      version="v0.1.1"
-      releaseDate="04/05/2020"
+      version="v0.1.3"
+      releaseDate="28/05/2020"
       linux={[
         {
           type: "deb",
           link:
-            "https://drive.google.com/open?id=1kAEQESBHLW4ZrO0vKUc1X4dT7Wst9UpH",
+            "https://github.com/haxzie/instagram-live-streamer/releases/download/v0.1.3/streamon_0.1.3_amd64.deb",
         },
         {
           type: "AppImage",
           link:
-            "https://drive.google.com/open?id=1iTLzFHm37Sxf33Xe97qVOsE42_0UsGIP",
+            "https://github.com/haxzie/instagram-live-streamer/releases/download/v0.1.3/streamon-0.1.3.AppImage",
         },
       ]}
       windows={[
         {
           type: "exe",
           link:
-            "https://drive.google.com/open?id=1V6w05GB9wX1YIAWF8efm7yyN6q6kgLAA",
+            "https://github.com/haxzie/instagram-live-streamer/releases/download/v0.1.3/streamon.Setup.0.1.3.exe",
         },
       ]}
       macos={[
@@ -40,25 +40,25 @@ const IndexPage = () => (
     />
     <DownloadsSection
       title="Beta Channel"
-      version="v0.1.2-beta"
-      releaseDate="26/05/2020"
+      version="v0.1.3-beta"
+      releaseDate="28/05/2020"
       linux={[
         {
           type: "deb",
           link:
-            "https://github.com/haxzie/instagram-live-streamer/releases/download/0.1.2-beta/streamon_0.1.2_amd64.deb",
+            "https://github.com/haxzie/instagram-live-streamer/releases/download/v0.1.3/streamon_0.1.3_amd64.deb",
         },
         {
           type: "AppImage",
           link:
-            "https://github.com/haxzie/instagram-live-streamer/releases/download/0.1.2-beta/streamon-0.1.2.AppImage",
+            "https://github.com/haxzie/instagram-live-streamer/releases/download/v0.1.3/streamon-0.1.3.AppImage",
         },
       ]}
       windows={[
         {
           type: "exe",
           link:
-            "https://github.com/haxzie/instagram-live-streamer/releases/download/0.1.2-beta/streamon.Setup.0.1.2.exe",
+            "https://github.com/haxzie/instagram-live-streamer/releases/download/v0.1.3/streamon.Setup.0.1.3.exe",
         },
       ]}
     />
