@@ -7,8 +7,8 @@ import VideoSection from "../components/VideoSection"
 const IndexPage = () => (
   <Layout>
     <SEO title="Stream live to instagram from Windows/Linux" />  
-    <Hero title="Stream to Instagram live from your PC"
-    description="Create one click streaming links to use in OBS studio or any broadcasting/streaming software"/>
+    <Hero title="Engage live with your Instagram audience like never before!"
+    description="Go live with high quality stream from your desktop/laptop. Creating streaming links to Instagram Live with a single click!"/>
     <VideoSection/>
   </Layout>
 )
