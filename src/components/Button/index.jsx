@@ -1,6 +1,5 @@
 import React from "react"
 import styles from "./styles.module.scss"
-import Icon from "../Icon"
 
 export default function Button(props) {
   const iconSizes = {

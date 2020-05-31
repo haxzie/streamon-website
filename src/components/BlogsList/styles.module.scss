@@ -1,0 +1,16 @@
+@import "../../styles/setup/mixins";
+
+.wrapper {
+    padding: 20px 0;
+}
+
+.blogsList {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 30px;
+
+    @include respond-below(md) {
+        grid-template-columns: 1fr;
+    }
+}

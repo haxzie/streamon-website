@@ -1,0 +1,81 @@
+@import "../../styles/setup/mixins";
+
+.blogCard {
+  display: flex;
+  flex-direction: column;
+
+  .imageWrapper {
+    height: 270px;
+    width: 100%;
+    margin-right: 30px;
+    transition: 0.2s all ease-in-out;
+
+    &:hover {
+      opacity: 0.8;
+    }
+
+    @include respond-below(md) {
+      height: 250px;
+    }
+
+    @include respond-below(sm) {
+      height: 230px;
+    }
+
+    .blogCover {
+      height: 100%;
+      width: auto;
+      border-radius: 10px;
+      box-shadow: 0 10px 20px #373a661e;
+    }
+  }
+
+  .texts {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+
+    .title {
+      font-size: 1.3rem;
+      font-weight: bold;
+      padding: 20px 0 5px 0;
+      transition: 0.2s all ease-in-out;
+      color: var(--color-primary);
+
+      &:hover {
+        color: var(--color-accent);
+      }
+    }
+
+    .description {
+      font-size: 1rem;
+      opacity: 0.8;
+    }
+  }
+
+  .profileDetails {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+
+    .profilePic {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+    }
+
+    .profileTexts {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: 15px;
+      line-height: 1rem;
+
+      .author {
+        font-size: 1rem;
+        margin: 0;
+      }
+    }
+  }
+}

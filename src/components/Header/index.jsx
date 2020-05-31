@@ -21,30 +21,41 @@ export default function Header() {
               <Link to="/downloads">Downloads</Link>
             </li>
             <li>
-            <a target="_blank" rel="noopener" href="https://github.com/haxzie/instagram-live-streamer/releases">
+              <Link to="/blog">Blog</Link>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://github.com/haxzie/instagram-live-streamer/releases"
+              >
                 Changelog
               </a>
             </li>
             <li>
-              <a target="_blank" rel="noopener" href="https://github.com/haxzie/instagram-live-streamer/projects/1">
-                Roadmap
-              </a>
-            </li>
-            <li>
-              <a target="_blank" rel="noopener" href="https://github.com/haxzie/instagram-live-streamer">
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://github.com/haxzie/instagram-live-streamer"
+              >
                 GitHub
               </a>
             </li>
             <li>
-              <a target="_blank" rel="noopener" href="https://www.buymeacoffee.com/haxzie">Buy me a coffee</a>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://www.buymeacoffee.com/haxzie"
+              >
+                Buy me a coffee
+              </a>
             </li>
           </ul>
-          
-          
+
           {/* Mobile navigation dropdown */}
-          <div className={styles.mobileDropDown}>
+          {/* <div className={styles.mobileDropDown}>
             
-          </div>
+          </div> */}
         </div>
       </Container>
     </header>
