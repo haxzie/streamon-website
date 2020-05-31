@@ -9,7 +9,20 @@ import { graphql } from "gatsby"
 export default function IndexPage({ data }) {
   return (
     <Layout>
-      <SEO title="Stream live to instagram from Windows/Linux" />
+      <SEO
+        title="Stream live to Instagram from Windows/Linux"
+        description="Go live with high quality stream from your desktop/laptop. Streamon helps you to create streaming links to Instagram Live with a single click!"
+        meta={[
+          {
+            name: "keywords",
+            content: "Instagram Live, Live Streaming, OBS Studio, Streamon",
+          },
+          {
+            name: "robots",
+            content: "index, follow",
+          },
+        ]}
+      />
       <Hero
         title="Engage live with your Instagram audience like never before!"
         description="Go live with high quality stream from your desktop/laptop. Streamon helps you to create streaming links to Instagram Live with a single click!"

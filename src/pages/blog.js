@@ -2,7 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/Layout"
 import BlogsList from "../components/BlogsList"
-import SEO from "../../components/seo"
+import SEO from "../components/seo"
 
 export default function Blogs({ data }) {
   const blogsData = data.allMarkdownRemark.nodes.map(item => item.frontmatter)
