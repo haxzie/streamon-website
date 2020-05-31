@@ -1,0 +1,50 @@
+@import "../../styles/setup/mixins";
+
+.sectionWrapper {
+  padding: 20px 10px;
+
+  .sectionContents {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+
+    &.reverse {
+      grid-auto-flow: dense;
+      flex-direction: column-reverse;
+
+      .texts {
+        order: 2;
+      }
+    }
+
+    @include respond-below(sm) {
+      grid-template-columns: 1fr;
+
+      .texts {
+        order: 1;
+      }
+
+      .image {
+          order: 2;
+      }
+
+      .image {
+        margin-top: 30px;
+      }
+    }
+
+    .texts {
+      display: flex;
+      flex-direction: column;
+
+      .title {
+        font-size: 2rem;
+        font-weight: bold;
+        line-height: 2.5rem;
+        margin-bottom: 30px;
+      }
+    }
+  }
+}

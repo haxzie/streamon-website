@@ -3,9 +3,9 @@ module.exports = {
     title: `Streamon`,
     description: `Stream to instagram live from Windows/Linux/Mac with just one click.`,
     author: `@haxzie`,
-    siteUrl: "https://getstreamon.com"
+    siteUrl: "https://getstreamon.com",
   },
-  plugins:  [
+  plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-sitemap`,
@@ -17,6 +17,12 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src`,
+      },
+    },
+    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
@@ -25,9 +31,9 @@ module.exports = {
             options: {
               maxWidth: 1080,
             },
-          }
+          },
         ],
-      }
+      },
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
@@ -47,14 +53,14 @@ module.exports = {
       resolve: `gatsby-plugin-web-font-loader`,
       options: {
         google: {
-          families: [`Montserrat`, `Lato`,`Material Icons`]
-        }
-      }
+          families: [`Montserrat`, `Lato`, `Material Icons`],
+        },
+      },
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: 'UA-101997744-9',
+        trackingId: "UA-101997744-9",
         // Puts tracking script in the head instead of the body
         head: true,
         // Setting this parameter is optional
@@ -62,15 +68,15 @@ module.exports = {
         // Setting this parameter is also optional
         respectDNT: true,
         // Avoids sending pageview hits from custom paths
-        exclude: ['/preview/**', '/do-not-track/me/too/'],
+        exclude: ["/preview/**", "/do-not-track/me/too/"],
       },
     },
     {
       resolve: `gatsby-plugin-google-adsense`,
       options: {
-        publisherId: `ca-pub-7556700931518738`
+        publisherId: `ca-pub-7556700931518738`,
       },
-    }
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
