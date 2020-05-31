@@ -20,7 +20,7 @@ Instagram is a great platform for artists, creators, businessess because of it's
 
 ## How can I go live on Instagram from my PC/Laptop?
 
-You have your high end camera's, sound system and a high-end PC setup in your studio, or you simply want to stream a YouTube video or a live video call on Instagram. But, Instagram only support streaming through their offical app. Introducing [Streamon](https://getstreamon.com)! This tiny app can help you setup live streaming to instagram live with all your studio setup right from your Windows/Linux/Mac machine.
+You have your digital cameras, sound system and a high-end PC setup in your studio, or you simply want to stream a YouTube video or a live video call on Instagram. But, Instagram only support streaming through their offical app. Introducing [Streamon](https://getstreamon.com)! This tiny app can help you setup live streaming to instagram live with all your studio setup right from your Windows/Linux/Mac machine.
 
 Follow these simple steps to setup live streaming to Instagram directly from your PC.
 - You need an [Instagram](https://instagram.com) account
