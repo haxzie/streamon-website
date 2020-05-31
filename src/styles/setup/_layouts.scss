@@ -1,9 +1,14 @@
 html,
 body,
-#___gatsby {
+#___gatsby, #gatsby-focus-wrapper {
   height: 100%;
   overflow-x: hidden;
   background-color: var(--color-secondary);
+}
+
+#gatsby-focus-wrapper {
+  display: flex;
+  flex-direction: column;
 }
 
 body {
