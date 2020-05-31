@@ -1,3 +1,6 @@
+@import "../../styles/setup/mixins";
+
+
 .footer {
     display: flex;
     flex-direction: row;
@@ -5,8 +8,20 @@
     justify-content: center;
     padding: 20px 0;
     font-size: 1rem;
+    background-color: #c0c0c0;
 
     a {
         color: var(--color-primary);
+    }
+
+    .footerContents {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        @include respond-below(sm) {
+            flex-direction: column;
+        }
     }
 }
