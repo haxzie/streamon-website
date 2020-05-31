@@ -2,11 +2,26 @@ import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/Layout"
 import BlogsList from "../components/BlogsList"
+import SEO from "../../components/seo"
 
 export default function Blogs({ data }) {
   const blogsData = data.allMarkdownRemark.nodes.map(item => item.frontmatter)
   return (
     <Layout>
+      <SEO
+        title="The Streamon Community Blog - Tutorials and Guides"
+        description="Learn from the streamer's community on using Streamon and learn about building your brand with Instagram using live videos"
+        meta={[
+          {
+            name: "keywords",
+            content: "Instagram Live, Live Streaming, Blogs, Streamon",
+          },
+          {
+            name: "robots",
+            content: "index, follow",
+          },
+        ]}
+      />
       <BlogsList blogs={blogsData} />
     </Layout>
   )
