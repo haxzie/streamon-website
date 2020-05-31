@@ -7,7 +7,11 @@ exports.createPages = ({ actions, graphql }) => {
   return graphql(
     `
       {
-        allMarkdownRemark( filter: { fileAbsolutePath: { regex: "/contents/blogs/.*/.*[.]md$/"}}) {
+        allMarkdownRemark(
+          filter: {
+            fileAbsolutePath: { regex: "/contents/blogs/.*/.*[.]md$/" }
+          }
+        ) {
           nodes {
             id
             frontmatter {
@@ -36,7 +40,7 @@ exports.createPages = ({ actions, graphql }) => {
                 id: item.id,
               },
             })
-            breakl
+            break
         }
       }
     })
