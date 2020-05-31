@@ -39,6 +39,12 @@ export default function Header() {
               <a target="_blank" rel="noopener" href="https://www.buymeacoffee.com/haxzie">Buy me a coffee</a>
             </li>
           </ul>
+          
+          
+          {/* Mobile navigation dropdown */}
+          <div className={styles.mobileDropDown}>
+            
+          </div>
         </div>
       </Container>
     </header>

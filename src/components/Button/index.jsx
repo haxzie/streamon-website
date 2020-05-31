@@ -16,23 +16,21 @@ export default function Button(props) {
       }`}
     >
       {props.iconLeft ? (
-        <Icon
+        <img
+          src={props.iconLeft}
           size={iconSizes[props.size || "medium"]}
           className={styles.iconLeft}
-        >
-          {props.iconLeft}
-        </Icon>
+        />
       ) : (
         <></>
       )}
       {props.children}
       {props.iconRight ? (
-        <Icon
+        <img
+          src={props.iconRight}
           size={iconSizes[props.size || "medium"]}
           className={styles.iconRight}
-        >
-          {props.iconRight}
-        </Icon>
+        />
       ) : (
         <></>
       )}

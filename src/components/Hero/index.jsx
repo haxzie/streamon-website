@@ -3,6 +3,7 @@ import styles from "./styles.module.scss"
 import Container from "../Container"
 import Button from "../Button"
 import { Link } from "gatsby"
+import GetAppIcon from "../../images/get_app_icon.svg"
 
 export default function Hero({ title, description }) {
   return (
@@ -12,7 +13,7 @@ export default function Hero({ title, description }) {
           <h1 className={styles.title}>{title}</h1>
           <p className={styles.description}>{description}</p>
           <Link to="/downloads">
-            <Button className={styles.downloadButton} iconLeft="get_app">
+            <Button className={styles.downloadButton} iconLeft={GetAppIcon}>
               Download
             </Button>
           </Link>
