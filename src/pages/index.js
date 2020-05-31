@@ -12,7 +12,7 @@ export default function IndexPage({ data }) {
       <SEO title="Stream live to instagram from Windows/Linux" />
       <Hero
         title="Engage live with your Instagram audience like never before!"
-        description="Go live with high quality stream from your desktop/laptop. Creating streaming links to Instagram Live with a single click!"
+        description="Go live with high quality stream from your desktop/laptop. Streamon helps you to create streaming links to Instagram Live with a single click!"
       />
       <VideoSection />
       <HomeSection
