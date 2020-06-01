@@ -39,6 +39,10 @@ function SEO({ description, lang, meta, title, image, author, twitterCardType })
       titleTemplate={`%s | ${site.siteMetadata.title}`}
       meta={[
         {
+          name: `Content-Type`,
+          content:`text/html; charset=UTF-8` 
+        },
+        {
           name: `description`,
           content: metaDescription,
         },
