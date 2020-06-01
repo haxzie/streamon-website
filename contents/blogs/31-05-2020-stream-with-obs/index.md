@@ -2,7 +2,7 @@
 slug: /blog/instagram-live-obs-studio-windows-linux-mac
 layout: blog
 published: true
-date: 2020-01-31
+date: 2020-05-31
 title: Stream to Instagram live with Streamon and OBS Studio from your PC
 description: Learn how to start a live stream to Instagram live from you Windows/Linux/MacOS computer with OBS Studio or any broadcasting software.
 author: Musthaq Ahamad
