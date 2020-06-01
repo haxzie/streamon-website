@@ -12,7 +12,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import streamonCoverImg from "../images/streamon-cover.png"
 
 
-function SEO({ description, lang, meta, title, image, author }) {
+function SEO({ description, lang, meta, title, image, author, twitterCardType }) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -51,12 +51,20 @@ function SEO({ description, lang, meta, title, image, author }) {
           content: metaDescription,
         },
         {
+          property: `og:url`,
+          content: `https://getstreamon.com`
+        },
+        {
+          property: `og:site_name`,
+          content: `Streamon`
+        },
+        {
           property: `og:type`,
-          content: `website`,
+          content: `object`,
         },
         {
           name: `twitter:card`,
-          content: `summary`,
+          content: twitterCardType || `summary`,
         },
         {
           name: `twitter:creator`,
@@ -79,7 +87,19 @@ function SEO({ description, lang, meta, title, image, author }) {
           content: coverImage
         },
         {
+          name: `twitter:site`,
+          content: `@streamonhq`
+        },
+        {
+          name: `twitter:creator`,
+          content: `@streamonhq`
+        },
+        {
           name: `image`,
+          content: coverImage
+        },
+        {
+          name: `og:image`,
           content: coverImage
         }
       ].concat(meta)}

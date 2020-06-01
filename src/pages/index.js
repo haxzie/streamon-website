@@ -12,6 +12,7 @@ export default function IndexPage({ data }) {
       <SEO
         title="Stream live to Instagram from Windows/Linux"
         description="Go live with high quality stream from your desktop/laptop. Streamon helps you to create streaming links to Instagram Live with a single click!"
+        twitterCardType={`summary_large_image`}
         meta={[
           {
             name: "keywords",

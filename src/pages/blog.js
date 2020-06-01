@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 import Layout from "../components/Layout"
 import BlogsList from "../components/BlogsList"
 import SEO from "../components/seo"
+import BlogCoverImage from "../images/blog-cover-image.png";
 
 export default function Blogs({ data }) {
   const blogsData = data.allMarkdownRemark.nodes.map(item => item.frontmatter)
@@ -11,6 +12,8 @@ export default function Blogs({ data }) {
       <SEO
         title="The Streamon Community Blog - Tutorials and Guides"
         description="Learn from the streamer's community on using Streamon and learn about building your brand with Instagram using live videos"
+        twitterCardType={`summary_large_image`}
+        image={BlogCoverImage}
         meta={[
           {
             name: "keywords",

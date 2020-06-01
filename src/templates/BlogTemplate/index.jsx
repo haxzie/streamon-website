@@ -13,6 +13,7 @@ export default function BlogTemplate({ data }) {
         description={frontmatter.description}
         image={frontmatter.cover_image.publicURL}
         author={frontmatter.author}
+        twitterCardType={`summary_large_image`}
         meta={
           [
             {
