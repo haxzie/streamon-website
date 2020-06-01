@@ -88,7 +88,7 @@ function SEO({ description, lang, meta, title, image, author, twitterCardType })
         },
         {
           name: `twitter:image`,
-          content: coverImage
+          content: `https://getstreamon.com${coverImage}`
         },
         {
           name: `twitter:site`,
@@ -100,11 +100,11 @@ function SEO({ description, lang, meta, title, image, author, twitterCardType })
         },
         {
           name: `image`,
-          content: coverImage
+          content: `https://getstreamon.com${coverImage}`
         },
         {
           name: `og:image`,
-          content: coverImage
+          content: `https://getstreamon.com${coverImage}`
         }
       ].concat(meta)}
     />
