@@ -23,20 +23,25 @@ Follow the below steps to start streaming almost anything on your mobile screen 
 
 - An Andoid phone with your favourite mobile game (Unfortunately, Iphones won't be able to work in this method)
 - An Instagram account (Obviously)
+- [Screen Stream Over HTTP](https://play.google.com/store/apps/details?id=info.dvkr.screenstream&hl=en) app on your android phone
 - A Windows/Linux desktop or laptop with [OBS Studio](https://obsproject.com/) installed
-- Download and [Install ADB](https://www.xda-developers.com/install-adb-windows-macos-linux/) on your computer.
-- Install [Streamon](https://getstreamon.com) and [SCRCPY](https://github.com/Genymobile/scrcpy) on your desktop or laptop
+- Install [Streamon](https://getstreamon.com) on your desktop or laptop
 
 ## 1. Streaming your android device to your PC
 
-Make sure you have ADB installed on your Windows/Linux machine. Go [here](https://www.xda-developers.com/install-adb-windows-macos-linux/) to know how to install ADB on your system. Then, make sure you have installed ScrCpy from [here](https://github.com/Genymobile/scrcpy). Turn on **USB debugging** on your android device from **Developer options** inside the settings. If you don't have developer options enabled, tap on build number of your phone from the **about phone** section multiple times to enable this. Then, connect your device to [computer via USB or via ADB over network](https://www.xda-developers.com/quickly-install-adb/). Click on confirm in the prompt that will be shown in your device to verify the host, if you are connecting your device to PC via ADB for the first time.
+<Image src="./screen-stream.png" alt="Screen Stream app"/>
+<span style="text-align: center; display: block; font-size: 1rem">Screen Stream Over HTTP app on Play store</span>
 
-Type `adb devices` inside a terminal (if you are on linux) or inside a Command Prompt (if you are on Windows). Make sure your device ID is listed there. If you want to connect your device via Wifi, first connect your device via USB and type the command to enable ADB on the port 5555 : `adb tcpip 5555` and then `adb connect YOUR-DEVICE-IP:5555` (replace the **YOUR-DEVICE-IP** to your phone's LAN IP address). Example : `adb connect 192.168.1.2:5555`. Once the prompt says connected, you can disconnect the cable and if you type `adb devices` it will show your device connected via WIFI.
+Install and Open the [Screen Stream Over HTTP](https://play.google.com/store/apps/details?id=info.dvkr.screenstream&hl=en) app on your android phone and click on the **play** button on the bottom to start streaming your screen over HTTP. Make sure both your laptop/desktop and phone is on the same wifi network. Note down the URL shown in the app and open it in the browser.
 
-To start streaming your device screen to PC, use [ScrCpy](https://github.com/Genymobile/scrcpy) you installed. Type `scrcpy` in your termial/command-promt, if your device is properly connected, this will open a window with your phone screen. While the window is open, DONOT CLOSE your terminal/command prompt.
+<Image src="./screen-stream-home.png" alt="Screen Stream app"/>
+<span style="text-align: center; display: block; font-size: 1rem">Screen Stream app's home page</span>
 
-<Image src="./connected-phone.png" alt="Connecting phone via scrcpy"/>
-<span style="text-align: center; display: block; font-size: 1rem">SCRCPY screen with phone screen</span>
+Once the stream is started, open a new browser window in your PC and go to the **device address** provided on the app's screen.
+
+<Image src="./device-on-browser.png" alt="device screen on browser"/>
+<span style="text-align: center; display: block; font-size: 1rem">Your device screen on browser</span>
+
 
 ## 2. Setting up OBS Studio
 
@@ -56,7 +61,7 @@ Now, Click on **settings** in the bottom right panel and go to the **Video tab**
 
 ### Adding your phone screen as video source
 
-Once we configured the video output, we need to add a video source. Click on the **+** icon from the bottom left, second panel which says **Sources** and click on `Window Capture` and choose the SrcCpy's window which is streaming your mobile screen. Once, the device is being added you can simply use the handles on the preview to adjust the view to the canvas. If you want to rotate the view, right click on the preview, select transform and choose **Rotate 90 degrees**.
+Once we configured the video output, we need to add a video source. Click on the **+** icon from the bottom left, second panel which says **Sources** and click on `Window Capture` and choose the **Screen Stream** browser window on **Window** selcetion which is streaming your mobile screen. Once, the device is being added you can simply use the handles on the preview to adjust the view to the canvas. If you want to rotate the view, right click on the preview, select transform and choose **Rotate 90 degrees**.
 
 <Image src="./scrcpy-obs.png" alt="Device screen on OBS"/>
 <span style="text-align: center; display: block; font-size: 1rem">Your Device Screen On OBS</span>
