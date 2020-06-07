@@ -3,6 +3,7 @@ import Layout from "../../components/Layout"
 import styles from "./styles.module.scss"
 import GatsbyImage from "gatsby-image"
 import SEO from "../../components/seo"
+import WatchOnYouTubeCard from "../../components/WatchOnYouTubeCard"
 
 export default function BlogTemplate({ data }) {
   const { html: contents, frontmatter } = data.markdownRemark
@@ -14,18 +15,16 @@ export default function BlogTemplate({ data }) {
         image={frontmatter.cover_image.publicURL}
         author={frontmatter.author}
         twitterCardType={`summary_large_image`}
-        meta={
-          [
-            {
-              name: "keywords",
-              content: frontmatter.keywords.join(',')
-            },
-            {
-              name: "robots",
-              content: "index, follow"
-            }
-          ]
-        }
+        meta={[
+          {
+            name: "keywords",
+            content: frontmatter.keywords.join(","),
+          },
+          {
+            name: "robots",
+            content: "index, follow",
+          },
+        ]}
       />
       <div className={styles.blogContainer}>
         <h1 className={styles.title}>{frontmatter.title}</h1>
@@ -34,6 +33,12 @@ export default function BlogTemplate({ data }) {
           className={styles.cover}
           fluid={frontmatter.cover_image.childImageSharp.fluid}
         />
+        {frontmatter.youtube ? (
+          <WatchOnYouTubeCard link={frontmatter.youtube} />
+        ) : (
+          <></>
+        )}
+
         <div
           className={styles.blogContents}
           dangerouslySetInnerHTML={{ __html: contents }}
@@ -57,6 +62,7 @@ export const query = graphql`
         date(formatString: "DD / MM / YYYY")
         author
         keywords
+        youtube
         cover_image {
           publicURL
           childImageSharp {

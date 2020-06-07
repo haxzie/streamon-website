@@ -7,6 +7,7 @@ title: Stream PUBG or Call Of Duty mobile games to Instagram Live with OBS Studi
 description: Learn how to stream your mobile gaming sessions of PUBG, Call of duty from Android device to Instagram Live using OBS Studio and Streamon easily.
 author: Musthaq Ahamad
 username: haxzie
+youtube: https://www.youtube.com/watch?v=TyyuMCTpjNY
 keywords:
   - instagram
   - OBS studio
