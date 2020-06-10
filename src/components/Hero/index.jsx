@@ -18,7 +18,7 @@ export default function Hero({ title, description }) {
             </Button>
           </Link>
           <span className={styles.helpText}>
-            Available for Windows and Linux
+            Available for Windows, MacOS and Linux
           </span>
         </div>
       </Container>

@@ -2,12 +2,12 @@ import React from "react"
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
 import DownloadsSection from "../components/DownloadSection"
-import NoteView from "../components/NoteView";
+import NoteView from "../components/NoteView"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Downloads" />
-    <NoteView/>
+    <NoteView />
     <DownloadsSection
       title="Downloads [Stable]"
       version="v0.1.3"
@@ -33,8 +33,14 @@ const IndexPage = () => (
       ]}
       macos={[
         {
-          type: "coming soon...",
-          link: null,
+          type: "dmg",
+          link:
+            "https://github.com/haxzie/instagram-live-streamer/releases/download/v0.1.3/streamon-0.1.3.dmg",
+        },
+        {
+          type: "pkg",
+          link:
+            "https://github.com/haxzie/instagram-live-streamer/releases/download/v0.1.3/streamon-0.1.3.pkg",
         },
       ]}
     />
@@ -59,6 +65,18 @@ const IndexPage = () => (
           type: "exe",
           link:
             "https://github.com/haxzie/instagram-live-streamer/releases/download/v0.1.3/streamon.Setup.0.1.3.exe",
+        },
+      ]}
+      macos={[
+        {
+          type: "dmg",
+          link:
+            "https://github.com/haxzie/instagram-live-streamer/releases/download/v0.1.3/streamon-0.1.3.dmg",
+        },
+        {
+          type: "pkg",
+          link:
+            "https://github.com/haxzie/instagram-live-streamer/releases/download/v0.1.3/streamon-0.1.3.pkg",
         },
       ]}
     />
