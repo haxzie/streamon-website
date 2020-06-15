@@ -10,25 +10,25 @@ const IndexPage = () => (
     <NoteView />
     <DownloadsSection
       title="Downloads [Stable]"
-      version="v0.1.3"
-      releaseDate="28/05/2020"
+      version="v0.1.4"
+      releaseDate="15/06/2020"
       linux={[
         {
           type: "deb",
           link:
-            "https://github.com/haxzie/instagram-live-streamer/releases/download/v0.1.3/streamon_0.1.3_amd64.deb",
+            "https://github.com/haxzie/instagram-live-streamer/releases/download/0.1.4/instagram-live-streamer_0.1.4_amd64.deb",
         },
         {
           type: "AppImage",
           link:
-            "https://github.com/haxzie/instagram-live-streamer/releases/download/v0.1.3/streamon-0.1.3.AppImage",
+            "https://github.com/haxzie/instagram-live-streamer/releases/download/0.1.4/instagram-live-streamer-0.1.4.AppImage",
         },
       ]}
       windows={[
         {
           type: "exe",
           link:
-            "https://github.com/haxzie/instagram-live-streamer/releases/download/v0.1.3/streamon.Setup.0.1.3.exe",
+            "https://github.com/haxzie/instagram-live-streamer/releases/download/0.1.4/instagram-live-streamer-Setup-0.1.4.exe",
         },
       ]}
       macos={[
@@ -40,36 +40,36 @@ const IndexPage = () => (
     <DownloadsSection
       title="Beta Channel"
       version="v0.1.4-beta"
-      releaseDate="10/06/2020"
+      releaseDate="15/06/2020"
       linux={[
         {
           type: "deb",
           link:
-            "https://github.com/haxzie/instagram-live-streamer/releases/download/untagged-2aca8763a66d3190fc96/instagram-live-streamer_0.1.4_amd64.deb",
+            "https://github.com/haxzie/instagram-live-streamer/releases/download/0.1.4/instagram-live-streamer_0.1.4_amd64.deb",
         },
         {
           type: "AppImage",
           link:
-            "https://github.com/haxzie/instagram-live-streamer/releases/download/untagged-2aca8763a66d3190fc96/instagram-live-streamer-0.1.4.AppImage",
+            "https://github.com/haxzie/instagram-live-streamer/releases/download/0.1.4/instagram-live-streamer-0.1.4.AppImage",
         },
       ]}
       windows={[
         {
           type: "exe",
           link:
-            "https://github.com/haxzie/instagram-live-streamer/releases/download/untagged-2aca8763a66d3190fc96/instagram-live-streamer-Setup-0.1.4.exe",
+            "https://github.com/haxzie/instagram-live-streamer/releases/download/0.1.4/instagram-live-streamer-Setup-0.1.4.exe",
         },
       ]}
       macos={[
         {
           type: "dmg",
           link:
-            "https://github.com/haxzie/instagram-live-streamer/releases/download/untagged-2aca8763a66d3190fc96/instagram-live-streamer-0.1.4.dmg",
+            "https://github.com/haxzie/instagram-live-streamer/releases/download/0.1.4/instagram-live-streamer-0.1.4.dmg",
         },
         {
           type: "pkg",
           link:
-            "https://github.com/haxzie/instagram-live-streamer/releases/download/untagged-2aca8763a66d3190fc96/instagram-live-streamer-0.1.4.pkg",
+            "https://github.com/haxzie/instagram-live-streamer/releases/download/0.1.4/instagram-live-streamer-0.1.4.pkg",
         },
       ]}
     />
