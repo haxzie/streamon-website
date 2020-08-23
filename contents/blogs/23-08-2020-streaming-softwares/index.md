@@ -30,13 +30,15 @@ IGL: Instagram Live
 ### Web pages / servers
 #### InstaTV: 
 [https://instatv.io/](https://instatv.io/)
-<Image src="./instatvio_.png" alt="InstaTV"/>
+
+<Image src="./instatv_.png" alt="InstaTV"/>
 
 To stream to IGL, you have to pay.
 
 
 #### Restream
 [https://restream.io/](https://restream.io/)
+
 <Image src="./restream_.png" alt="Restream"/>
 
 To stream to IGL, you have to pay.
@@ -98,17 +100,17 @@ This is a very nice software! ;) But (**)...
 
 So, I started trying Android emulators. I they take a virtual camera and use it as phone camera (and the same with audio), I could use IG app inside it and use it with all its features.
 
-#### Bluestack
+#### Bluestacks
 [https://www.bluestacks.com/](https://www.bluestacks.com/)
 
-<Image src="./bluestack_.png" alt="Bluestack"/>
+<Image src="./bluestacks_.png" alt="Bluestacks"/>
 
 Only for Windows and Mac.
 
 #### NoxPlayer
 [https://es.bignox.com/](https://es.bignox.com/)
 
-<Image src="./nox.player.png" alt="NoxPlayer"/>
+<Image src="./noxplayer_.png" alt="NoxPlayer"/>
 
 Only for Windows
 
