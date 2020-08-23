@@ -30,35 +30,37 @@ IGL: Instagram Live
 ### Web pages / servers
 #### InstaTV: 
 [https://instatv.io/](https://instatv.io/)
-<Image src="./instatv.png" alt="InstaTV"/>
+<Image src="./instatvio_.png" alt="InstaTV"/>
+
 To stream to IGL, you have to pay.
 
 
 #### Restream
 [https://restream.io/](https://restream.io/)
-<Image src="./restream.png" alt="Restream"/>
+<Image src="./restream_.png" alt="Restream"/>
 
 To stream to IGL, you have to pay.
 
 #### Castr
 [https://castr.io/](https://castr.io/)
 
-<Image src="./castr.png" alt="Castr"/>
+<Image src="./castr_.png" alt="Castr"/>
 
 To stream to IGL, you have to pay. As I used this service to multistream to YouTube and Facebook, I know that it stream to IG, but video is cropped at it sides to make your horizontal video a vertical one. So, 70% of video is lost. I asked them to rotate video befores stream to IG server... but the response was obvious: no, we can't.
 
 #### Instafeed
 [https://instafeed.me/](https://instafeed.me/)
 
-<Image src="./instafeed.png" alt="InstaFeed"/>
+<Image src="./instafeed_.png" alt="InstaFeed"/>
 
 _First 5 streams are free! No limits!_
+
 But then, to stream to IGL, you have to pay.
 
 #### Loola.tv
 [https://loola.tv/](https://loola.tv/)
 
-<Image src="./loola.png" alt="Loola"/>
+<Image src="./loola_.png" alt="Loola"/>
 
 You can stream to IGL, but you have a watermark. Someone told me that could bypass watermark... but  I don't think this is possible now.
 
@@ -68,14 +70,14 @@ Before talking about software, you need to know that the main purpose of them is
 
 #### YellowDuck
 [https://yellowduck.tv/](https://yellowduck.tv/)
-<Image src="./yellow.duck.png" alt="Yellow Duck"/>
+<Image src="./yellowduck_.png" alt="Yellow Duck"/>
 
 No matter this page says "With Yellow Duck, you can instantly create a live stream on Instagram from your PC, Mac, Linux and more"... there's no downloadable Linux version of this software. So, I get Windows version and run it in a Win7 VirtualBox. So, I could get key from there. But (**)...
 
 #### instagramlive-php-master
 [YouTube video](https://www.youtube.com/watch?v=BD4Kn8r4eQs)
 
-<Image src="./instagram-php.png" alt="PHP"/>
+<Image src="./php_.png" alt="PHP"/>
 
 This spanish tutorial teachs you how to install some softwares (XAMPP and Composer) and use them to run PHP code. In tutorial says that it is only for Windows... but I installed Linux versions of that softwares, installed some more needed packages, and I achieved run it in Linux, but with limited features in comparison with Windows version.
 
@@ -86,7 +88,7 @@ I used this software in a children broadcast show that I presented, for 16 days.
 #### Streamon - Instagram Live Streamer
 [https://getstreamon.com/](https://getstreamon.com/)
 
-<Image src="./streamon.png" alt="Streamon"/>
+<Image src="./streamon_.png" alt="Streamon"/>
 
 This is a very nice software! ;) But (**)...
 
@@ -99,7 +101,7 @@ So, I started trying Android emulators. I they take a virtual camera and use it 
 #### Bluestack
 [https://www.bluestacks.com/](https://www.bluestacks.com/)
 
-<Image src="./bluestack.png" alt="Bluestack"/>
+<Image src="./bluestack_.png" alt="Bluestack"/>
 
 Only for Windows and Mac.
 
@@ -116,7 +118,7 @@ I tested other emulators... with no so much luck. Now, I don't remember which th
 #### Emulator from Android Studio
 [https://developer.android.com/studio](https://developer.android.com/studio)
 
-<Image src="./android.studio.1.png" alt="Android Studio"/>
+<Image src="./androidstudio_.png" alt="Android Studio"/>
 
 "Android Studio is the official integrated development environment (IDE) for Google's Android operating system, built on JetBrains' IntelliJ IDEA software and designed specifically for Android development." That's it: official Android emulator.
 
