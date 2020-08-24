@@ -91,7 +91,8 @@ I used this software in a children broadcast show that I presented, for 16 days.
 
 This is a very nice software! ;), but didn't use so much, because (\*\*)...
 
-(\*\*) these softwares don't work with every IG accounts. If you are lucky, it works. If you are not... it doesn't. The account I used with the children show worked. Another account that I used... it worked. My account... IT DOESN'T <facepalm>.
+## (\*\*)
+These softwares don't work with every IG accounts. If you are lucky, it works. If you are not... it doesn't. The account I used with the children show worked. Another account that I used... it worked. My account... IT DOESN'T <facepalm>.
 
 ## Android Emulators
 
