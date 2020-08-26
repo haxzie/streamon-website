@@ -23,7 +23,7 @@ This is a small review of softwares and services servers I tested. I will only t
 IG: Instagram
 IGL: Instagram Live
 
-### Web pages / servers
+## Web pages / servers
 #### InstaTV: 
 [https://instatv.io/](https://instatv.io/)
 
@@ -54,7 +54,7 @@ You can use these servers to multi-stream to several destinations. One of them c
 
 Also, to stream to IGL with these servers, you have to pay. In Castr, you can try it with a **7 days trial**. As I used (and payed) this service to multistream to YouTube and Facebook, I know that it streams to IG, but video is cropped at its sides to make your horizontal video a vertical one. So, 70% of video is lost. I asked them to rotate video befores stream to IG server... but the response was obvious: _no, we can't_.
 
-### Software
+## Software
 
 Before talking about software, you need to know that the main purpose of them is to get the "stream key" (a "code") and it has no relation to OBS. Someone could use this software, get the key, send it to another person in the other part of the world, and this person use is with OBS. So...
 
