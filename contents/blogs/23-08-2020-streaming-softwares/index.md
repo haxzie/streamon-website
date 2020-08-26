@@ -120,10 +120,10 @@ I have a Ryzen 5 with 16GB RAM and a SSD. It is not a quantum computer... but it
 
 I installed Android Studio, installed a hardware emulator (Pixie 2), installed a software (Android 10), started emulator, did initial configuration, log in with my Google account, go to Google Play, installed IG app and... voilà. Instagram running in my computer.
 
-<Image src="./andoid.studio.emulator.obs.1.png" alt="Emulator"/ style="width:640px;height:360px;">
+<Image src="./andoid.studio.emulator.obs.1.png" alt="Emulator" style="width:640px;height:360px;"/>
 
 As you can see in next image, I can even make live calls with it.
 
-<Image src="./andoid.studio.emulator.obs.2.png" alt="Emulator"/ style="width:640px;height:360px;">
+<Image src="./andoid.studio.emulator.obs.2.png" alt="Emulator" style="width:640px;height:360px;"/>
 
 There is another post about Android Studio emulator, here: _coming soon_.
