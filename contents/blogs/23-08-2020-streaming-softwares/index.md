@@ -56,16 +56,16 @@ Also, to stream to IGL with these servers, you have to pay. In Castr, you can tr
 
 ## Software
 
-Before talking about software, you need to know that the main purpose of them is to get the "stream key" (a "code") and it has no relation to OBS. Someone could use this software, get the key, send it to another person in the other part of the world, and this person use is with OBS. So...
+Before talking about software, you need to know that the main purpose of them is to get the "stream key" (a "code") and it has no relation to OBS. Someone could use these softwares, get the key, send it to another person in the other part of the world, and this person use is with OBS. So...
 
 #### YellowDuck
 [https://yellowduck.tv/](https://yellowduck.tv/)
 
 <Image src="./yellowduck_.png" alt="Yellow Duck"/>
 
-No matter this page says "With Yellow Duck, you can instantly create a live stream on Instagram from your PC, Mac, Linux and more"... there's no downloadable Linux version of this software. So, I get Windows version and run it in a Win7 VirtualBox. So, I could get key from there. But (\*\*)...
+No matter this page says "With Yellow Duck, you can instantly create a live stream on Instagram from your PC, Mac, Linux and more"... there's no downloadable Linux version of this software. So, I get Windows version and run it in a Win7 VirtualBox. So, I could get key from there. But (\*\* explained below)...
 
-#### instagramlive-php-master
+#### instagramlive-php
 [YouTube video](https://www.youtube.com/watch?v=BD4Kn8r4eQs)
 
 <Image src="./php_.png" alt="PHP"/>
@@ -74,17 +74,19 @@ This spanish tutorial teachs you how to install some softwares (XAMPP and Compos
 
 You have some commands you have to write in console to use it. First, you have to configure user and pass in a config.php file. Then, you run the code and, if it connects to IG account, it prints the stream key. You copy and paste it in OBS, start streaming in OBS and tell the code to start the real stream. Then, you can comment (using console), enable/disable comments, and some other functions that maybe or maybe not they are available in Linux (like "pin comments")
 
-I used this software in a children broadcast show that I presented, for 16 days. But (\*\*)...
+I used this software in a children broadcast show that I presented, for 16 days. But (\*\* explained below)...
 
 #### Streamon - Instagram Live Streamer
 [https://getstreamon.com/](https://getstreamon.com/)
 
 <Image src="./streamon_.png" alt="Streamon"/>
 
-This is a very nice software! ;), but didn't use so much, because (\*\*)...
+This is a very nice software! ;), but didn't use so much, because (\*\* explained below)...
 
 ## (\*\*)
-These softwares don't work with every IG accounts. If you are lucky, it works. If you are not... it doesn't. The account I used with the children show worked. Another account that I used... it worked. My account... IT DOESN'T <facepalm>.
+These softwares don't work with every IG accounts or in every time. If you are lucky, it works. If you are not... it doesn't. The account I used with the children show worked. Another account that I used... it worked. My account... IT DOESN'T <facepalm>.
+
+[EDIT] I tried Streamon and instagramlive-php other day with my account and it started to work. It's a matter of luck.
 
 ## Android Emulators
 
