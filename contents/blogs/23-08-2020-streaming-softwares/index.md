@@ -50,7 +50,7 @@ You can stream to IGL for free, but you have a watermark. Someone told me that c
 #### Restream and Castr
 [https://restream.io/](https://restream.io/) [https://castr.io/](https://castr.io/)
 
-You can use these servers to multi-stream to several destinations. One of them could be IG, but **you have to have the stream key that you can get using Streamon or YellowDuck.** They don't get the key automatically.
+You can use these servers to multi-stream to several destinations. One of them could be IG, but **you have to have the stream key that you can get using Streamon or YellowDuck.** Neither Restream nor Castr get the key automatically.
 
 Also, to stream to IGL with these servers, you have to pay. In Castr, you can try it with a **7 days trial**. As I used (and payed) this service to multistream to YouTube and Facebook, I know that it streams to IG, but video is cropped at its sides to make your horizontal video a vertical one. So, 70% of video is lost. I asked them to rotate video befores stream to IG server... but the response was obvious: _no, we can't_.
 
