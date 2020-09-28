@@ -47,7 +47,7 @@ const IndexPage = () => (
     <DownloadsSection
       title="Beta Channel"
       version="v0.1.9-beta"
-      releaseDate="19/09/2020"
+      releaseDate="28/09/2020"
       linux={[
         {
           type: "deb",
