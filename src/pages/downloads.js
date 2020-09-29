@@ -10,37 +10,37 @@ const IndexPage = () => (
     <NoteView />
     <DownloadsSection
       title="Downloads [Stable]"
-      version="v0.1.8"
-      releaseDate="19/09/2020"
+      version="v0.1.9"
+      releaseDate="29/09/2020"
       linux={[
         {
           type: "deb",
           link:
-            "https://github.com/haxzie/instagram-live-streamer/releases/download/0.1.8/instagram-live-streamer_0.1.8_amd64.deb",
+            "https://github.com/haxzie/instagram-live-streamer/releases/download/0.1.9/instagram-live-streamer_0.1.9_amd64.deb",
         },
         {
           type: "AppImage",
           link:
-            "https://github.com/haxzie/instagram-live-streamer/releases/download/0.1.8/instagram-live-streamer-0.1.8.AppImage",
+            "https://github.com/haxzie/instagram-live-streamer/releases/download/0.1.9/instagram-live-streamer-0.1.9.AppImage",
         },
       ]}
       windows={[
         {
           type: "exe",
           link:
-            "https://github.com/haxzie/instagram-live-streamer/releases/download/0.1.8/instagram-live-streamer-Setup-0.1.8.exe",
+            "https://github.com/haxzie/instagram-live-streamer/releases/download/0.1.9/instagram-live-streamer-Setup-0.1.9.exe",
         },
       ]}
       macos={[
         {
           type: "dmg",
           link:
-            "https://github.com/haxzie/instagram-live-streamer/releases/download/0.1.8/instagram-live-streamer-0.1.8.dmg",
+            "https://github.com/haxzie/instagram-live-streamer/releases/download/0.1.9/instagram-live-streamer-0.1.9.dmg",
         },
         {
           type: "pkg",
           link:
-            "https://github.com/haxzie/instagram-live-streamer/releases/download/0.1.8/instagram-live-streamer-0.1.8.pkg",
+            "https://github.com/haxzie/instagram-live-streamer/releases/download/0.1.9/instagram-live-streamer-0.1.9.pkg",
         },
       ]}
     />
