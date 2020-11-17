@@ -14,10 +14,11 @@ exports.onRenderBody = ({ setPostBodyComponents }) => {
       src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
       data-id="haxzie"
       data-description="Help us keep this project alive"
-      data-color="#041732"
+      data-message="Thank you for visiting. You can support the project via BuyMeACoffee!" 
+      data-color="#FFDD00"
       data-position="right"
       data-x_margin="18"
       data-y_margin="18"
-    ></script>,
+    ></script>
   ])
 }
