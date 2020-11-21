@@ -29,16 +29,16 @@ export default function BlogCard({
         <p className={styles.description}>{description}</p>
       </div>
 
-      <div className={styles.profileDetails}>
+      {/* <div className={styles.profileDetails}>
         <img
           className={styles.profilePic}
           src={`https://github.com/${username}.png`}
         />
         <div className={styles.profileTexts}>
           <h4 className={styles.author}>{author}</h4>
-          {/* <p className={styles.date}>{date}</p> */}
+          <p className={styles.date}>{date}</p>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }
