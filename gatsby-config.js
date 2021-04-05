@@ -60,7 +60,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-tagmanager`,
       options: {
-        id: `GTM-T7JRL7P`,
+        id: `G-CVDNZNYZVN`,
       }
     },
     // {
